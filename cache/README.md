@@ -8,12 +8,19 @@ The library utilizes the requests, json, math, datettime, and collections librar
 Import as: `import lru_cache`
 
 Initializing a new cache: `lru_cache.Cache(latitude, longitude, size)`
+
 Finding closest location cache: `lru_cache.get_closest_cache(lru_cache.caches)`
+
 Insert to a cache: `cache.put(key, value)`
+
 Get data from cache: `cache.get(key)`
+
 Remove specified data: `cache.remove(key)`
+
 View cache data: `cache.peek()`
+
 Get number of items in cache: `cache.count()`
+
 Wipe data from cache: `cache.delete()`
 
 ## Missing Functionality and Potential Improvements
