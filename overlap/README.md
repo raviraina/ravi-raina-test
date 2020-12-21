@@ -3,5 +3,5 @@ A python program to find overlapping line segments on the x-axis. For example: g
 
 ## Usage
 
-Import using: `from overlap import overlap`
+Import using: `from overlap import overlap` \n
 Call using: `overlap(p1,p2)`, where p1 and p2 are int tuples of size 2.
