@@ -7,7 +7,7 @@ example: “1.2” is greater than “1.1”. Please provide all test cases you 
 
 class versionCompare:
 
-    # def class vars
+    # init params
     def __init__(self, v1, v2):
 
         if v1.isalpha() or v2.isalpha():
