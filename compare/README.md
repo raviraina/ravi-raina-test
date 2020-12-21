@@ -2,6 +2,8 @@
 A simple python library that compares given version numbers, and returns a string stating whether one is greater than, less than, or equal to the other.
 
 ## Usage
+Import as: `from compare import versionCompare`
+
 Initiate using: `versionCompare('v1', 'v2')`
 
 Return if they are equal using: `versionCompare('v1', 'v2').equal()`
