@@ -5,7 +5,7 @@ as input and returns whether one is greater than, equal, or less than the other.
 example: “1.2” is greater than “1.1”. Please provide all test cases you could think of.
 """
 
-class versionCompare:
+class VersionCompare:
 
     # init params
     def __init__(self, v1, v2):
@@ -69,7 +69,7 @@ class versionCompare:
             return f'{self.v2} is less than {self.v1}'
 
 def main():
-    r = versionCompare('1.3', '1.4').greater()
+    r = VersionCompare('1.3', '1.4').greater()
     print(r)
 
 if __name__ == "__main__":
