@@ -4,8 +4,6 @@ A simple python library that compares given version numbers, and returns a strin
 ## Usage
 Import as: `from compare import versionCompare`
 
-Initiate using: `versionCompare('v1', 'v2')`
-
 Return if they are equal using: `versionCompare('v1', 'v2').equal()`
 
 Return greater than using: `versionCompare('v1', 'v2').greater()`
