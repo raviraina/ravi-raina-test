@@ -1,4 +1,4 @@
-# COMPARE
+# COMPARE VERSIONS
 A simple python library that compares given version numbers, and returns a string stating whether one is greater than, less than, or equal to the other.
 
 ## Usage
